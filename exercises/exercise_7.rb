@@ -10,3 +10,6 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+puts "Store name svp"
+input = gets.chomp
+Store.create!(name: input)
